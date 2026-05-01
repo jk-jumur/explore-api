@@ -25,7 +25,8 @@ const loadPost =()=>{
     // 1.Get  the Container
 
     const postContainer = document.getElementById("post-container");
-    console.log(postContainer);
+    // console.log(postContainer);
+    postContainer.innerHTML = "";
 
     //2. loop iterate
      posts.forEach(post=>{
