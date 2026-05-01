@@ -21,3 +21,14 @@
 .post-card p{
      text-align: justify;
 }
+
+
+/**todo cards**/
+
+.todo-card{
+       border: 1px solid gray;
+       display:flex;
+       gap: 20px;
+       align-items: center;
+       margin-bottom: 20px;
+}
